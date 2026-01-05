@@ -1,0 +1,8 @@
+secrets*
+*egg-info*
+__pycache__
+classification_data*
+results*
+data/
+.DS_Store
+*.npy

@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsrouter"
+version = "0.1.0"
+description = "Time series router"
+authors = [
+    { name = "Eirik Drage Steen", email = "eirik.drage.steen@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "torch",
+    "argparse",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "tqdm",
+    "transformers",
+    "datasets",
+    "pandas",
+    "scipy",
+    "art",
+    "imageio",
+    "colorama",
+    "vector-quantize-pytorch",
+    "xgboost"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["tsrouter"]
