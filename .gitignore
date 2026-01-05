@@ -2,7 +2,7 @@ secrets*
 *egg-info*
 __pycache__
 classification_data*
-results*
+*results*
 data/
 .DS_Store
 *.npy
